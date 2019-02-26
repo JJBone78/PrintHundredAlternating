@@ -27,12 +27,10 @@ namespace PrintHundredAlternating
             {
               if (count % 2 == 0) 
                 {
-                
-                       Console.WriteLine("{0}", count);
+                 Console.WriteLine("{0}", count);
                 }
                 else 
-                {
-                    // this is a cheap way of displayling the odd number as a negative but it still solves the excercise
+                {   // this is a cheap way of displayling the odd number as a negative but it still solves the excercise
                     // more advanced would be to include count = count * -1 but the issue will be 
                     // to have it keep counting after converting 
                     Console.WriteLine("-{0}", count);
@@ -41,7 +39,6 @@ namespace PrintHundredAlternating
             }
             Console.Read();
         }
-        
         
     }
 }
